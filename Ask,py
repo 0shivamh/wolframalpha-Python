@@ -2,7 +2,7 @@ import wolframalpha
 def Ask():
 
     query=input("Ask the Question:--")
-    app_id = "TJLJ3K-29L94KQWW3"  
+    app_id = "your app id"  
     client = wolframalpha.Client(app_id)  
     res = client.query(query) 
     sol = next(res.results).text 
